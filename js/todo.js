@@ -1,20 +1,20 @@
-const todoForm = document.querySelector("#todoForm");
-const todoList = document.querySelector("#todoList");
-const todoInput = todoForm.querySelector("input:first-child");
-
-let todoListTemp = [];
 const TODO_LIST_LOCAL = "todolist";
 
-todoForm.addEventListener("submit", addTodoList);
+let todoListTemp = [];
 
-loadLocalstorageTodoList();
+document.addEventListener("DOMContentLoaded", function() {
+    const todoForm = document.querySelector("#todoForm");
+    todoForm.addEventListener("submit", addTodoList);
+
+    loadLocalstorageTodoList();
+});
 
 function addTodoList(e) {
     e.preventDefault();
 
+    const todoInput = todoForm.querySelector("input:first-child");
     const todoText = todoInput.value;
     const todoId = Date.now();
-
     const todoObj = {
         "id" : todoId,
         "todo" : todoText
@@ -54,6 +54,7 @@ function printTodo(todoObj) {
     liObj.appendChild(delObj);
 
     // 리스트에 추가
+    const todoList = document.querySelector("#todoList");
     todoList.appendChild(liObj);
 
     // Localstorage 처리
@@ -71,28 +72,3 @@ function deleteTodoList() {
     // 리스트 삭제
     liObj.remove();
 }
-
-//
-// function printTodo(newTodo) {
-//     const todoLi = document.createElement("li");
-//     const deleteButton = document.createElement("button");
-//     deleteButton.innerText = "❌";
-//     deleteButton.addEventListener("click", deleteTodoList);
-//
-//     todoLi.innerText = newTodo;
-//     todoLi.appendChild(deleteButton);
-//     todoList.appendChild(todoLi);
-// }
-//
-// function saveDodos() {
-//     localStorage.setItem(TODO_LIST_LOCAL, JSON.stringify(todos));
-// }
-//
-// function loadDodos() {
-//     const todoListLocal = localStorage.getItem(TODO_LIST_LOCAL);
-//     const todosLS = todoListLocal? JSON.parse(todoListLocal) : [];
-//
-//     todosLS.forEach(todoObj => {
-//         printTodo(todoObj);
-//     });
-// }

@@ -1,29 +1,34 @@
-//token
 const HIDDEN_CLASS = "hidden";
 const USERNAME_KEY = "username";
 
-//set const
-//loginForm
-const loginForm = document.querySelector("#loginForm");
-const loginDiv = loginForm.querySelector("#loginDiv");
-const loginInput = loginForm.querySelector("#loginForm input");
-//contents
-const contentDiv = document.querySelector("#contentDiv");
-const greeting = contentDiv.querySelector("#greeting");
-//localStorage
-const localUsername = localStorage.getItem(USERNAME_KEY);
+let loginForm;
+let loginDiv;
+let loginInput;
+let contentDiv;
+let greeting;
+let localUsername;
 
-// login Event
-loginForm.addEventListener("submit", onLoginSubmit);
-loginForm.addEventListener("reset", printLoginForm);
+document.addEventListener("DOMContentLoaded", function() {
+    //loginForm
+    loginForm = document.querySelector("#loginForm");
+    loginDiv = loginForm.querySelector("#loginDiv");
+    loginInput = loginForm.querySelector("#loginForm input");
+    //contents
+    contentDiv = document.querySelector("#contentDiv");
+    greeting = contentDiv.querySelector("#greeting");
+    //localStorage
+    localUsername = localStorage.getItem(USERNAME_KEY);
 
-console.log(localUsername);
+    // login Event
+    loginForm.addEventListener("submit", onLoginSubmit);
+    loginForm.addEventListener("reset", printLoginForm);
 
-if (localUsername === null) {
-    printLoginForm();
-} else {
-    printContent();
-}
+    if (localUsername === null) {
+        printLoginForm();
+    } else {
+        printContent();
+    }
+});
 
 function onLoginSubmit(e) {
     e.preventDefault();

@@ -1,7 +1,11 @@
-const clock = document.querySelector("#clock");
+let clock;
 
-setClock();
-setInterval(setClock, 1000);
+document.addEventListener("DOMContentLoaded", function() {
+    clock = document.querySelector("#clock");
+
+    setClock();
+    setInterval(setClock, 1000);
+});
 
 function setClock() {
     const today = new Date();
