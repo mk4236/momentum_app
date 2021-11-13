@@ -20,7 +20,7 @@ function addTodoList(e) {
         "todo" : todoText
     }
 
-    // todo 리스트에 출력
+    // todo리스트에 출력
     printTodo(todoObj);
 
     // input 초기화
