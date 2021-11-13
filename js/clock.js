@@ -1,5 +1,6 @@
 const clock = document.querySelector("#clock");
 
+setClock();
 setInterval(setClock, 1000);
 
 function setClock() {
@@ -12,13 +13,5 @@ function setClock() {
 }
 
 function setDigit(num) {
-    let res;
-
-    if (num < 10) {
-        res = "0" + num;
-    } else {
-        res = num;
-    }
-
-    return res;
+    return num.toString().padStart(2, "0");
 }

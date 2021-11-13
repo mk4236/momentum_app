@@ -19,7 +19,7 @@ loginForm.addEventListener("reset", printLoginForm);
 
 console.log(localUsername);
 
-if(localUsername === null) {
+if (localUsername === null) {
     printLoginForm();
 } else {
     printContent();
@@ -30,6 +30,7 @@ function onLoginSubmit(e) {
     const checkRes = checkLoginInput();
 
     if (checkRes) {
+        setLocalstorage();
         printContent();
     }
 }
@@ -42,7 +43,6 @@ function printContent() {
 }
 
 function setGreeting() {
-    setLocalstorage();
     const username = localStorage.getItem(USERNAME_KEY);
     greeting.innerText = `Hello ${username}`;
 }
@@ -72,27 +72,11 @@ function resetGreeting() {
 function checkLoginInput() {
     let res = true;
 
-    if (! loginInput.value.trim()) {
+    if (!loginInput.value.trim()) {
         alert("아이디를 입력해주세요");
         res = false;
     }
 
     return res;
 }
-//
-// function onLoginSubmit(e) {
-//     e.preventDefault();
-//     const userName = loginInput.value;
-//     localStorage.setItem(USERNAME_KEY, userName);
-//     printGreeting();
-// }
-//
-// function printGreeting() {
-//     const userName = localStorage.getItem(USERNAME_KEY);
-//
-//     loginDiv.classList.add(HIDDEN_CLASS);
-//     greeting.classList.remove(HIDDEN_CLASS);
-//     greetingReset.classList.remove(HIDDEN_CLASS);
-//     greeting.innerText = `Hello ${userName}`;
-// }
 

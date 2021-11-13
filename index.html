@@ -7,19 +7,30 @@
     <title>Momentum</title>
 </head>
 <body>
-    <form id="loginForm">
-        <div id="loginDiv">
-            <label for="userName">유저이름</label>
-            <input type="text" placeholder="what is yourname?" name="userName" id="userName" />
-            <button type="submit" class="btnSubmit">Log in</button>
+<form id="loginForm">
+    <div id="loginDiv">
+        <label for="userName">유저이름</label>
+        <input type="text" placeholder="what is yourname?" name="userName" id="userName" />
+        <button type="submit" class="btnSubmit">Log in</button>
+    </div>
+    <div class="hidden" id="contentDiv">
+        <h1 id="greeting">Hello</h1>
+        <h2 id="clock">00:00:00</h2>
+        <div id="quoteDiv">
+            <span id="quote"></span>
+            <span id="author"></span>
         </div>
-        <div class="hidden" id="contentDiv">
-            <h1 id="greeting">Hello</h1>
-            <h2 id="clock">00:00:00</h2>
-            <button type="reset" id="greetingBnt">되돌리기</button>
-        </div>
-    </form>
-    <script type="application/javascript" src="js/greeting.js"></script>
-    <script type="application/javascript" src="js/clock.js"></script>
+        <button type="reset" id="greetingBnt">되돌리기</button>
+    </div>
+</form>
+<form action="" id="todoForm">
+    <input type="text" placeholder="write ToDo and Press Enter" required autofocus />
+</form>
+<ul id="todoList"></ul>
+<script type="application/javascript" src="js/greeting.js"></script>
+<script type="application/javascript" src="js/clock.js"></script>
+<script src="js/quotes.js"></script>
+<script src="js/background.js"></script>
+<script src="js/todo.js"></script>
 </body>
 </html>
