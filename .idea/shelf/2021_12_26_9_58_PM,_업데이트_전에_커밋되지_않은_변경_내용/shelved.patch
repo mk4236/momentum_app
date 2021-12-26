@@ -1,0 +1,61 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"01471439-b4a4-4c96-b835-1b241dedd031\" name=\"변경\" comment=\"\">\n      <change afterPath=\"$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/js/weather.js\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/runConfigurations.xml\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/css/style.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/css/style.css\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/index.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/index.html\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"JavaScript File\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"551cf6c9be8af32848929dcc5aa24b4887570b1b\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n    <option name=\"WARN_ABOUT_DETACHED_HEAD\" value=\"false\" />\n  </component>\n  <component name=\"GitSEFilterConfiguration\">\n    <file-type-list>\n      <filtered-out-file-type name=\"LOCAL_BRANCH\" />\n      <filtered-out-file-type name=\"REMOTE_BRANCH\" />\n      <filtered-out-file-type name=\"TAG\" />\n      <filtered-out-file-type name=\"COMMIT_BY_MESSAGE\" />\n    </file-type-list>\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"20l1Lj8r82empNL8Stfv01q15oy\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"ASKED_ADD_EXTERNAL_FILES\" value=\"true\" />\n    <property name=\"GitStage.ChangesTree.GroupingKeys\" value=\"directory&#10;module&#10;repository\" />\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\n    <property name=\"TODO_SCOPE\" value=\"모든 위치\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\n    <property name=\"node.js.detected.package.eslint\" value=\"true\" />\n    <property name=\"node.js.detected.package.tslint\" value=\"true\" />\n    <property name=\"node.js.selected.package.eslint\" value=\"(autodetect)\" />\n    <property name=\"node.js.selected.package.tslint\" value=\"(autodetect)\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"settings.javascript.linters.tslint\" />\n  </component>\n  <component name=\"RunManager\">\n    <configuration name=\"index.html\" type=\"JavascriptDebugType\" temporary=\"true\" nameIsGenerated=\"true\" uri=\"http://localhost:63342/momentum_app/index.html\" useBuiltInWebServerPort=\"true\">\n      <method v=\"2\" />\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"JavaScript 디버그.index.html\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"애플리케이션 수준\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"디폴트 작업\">\n      <changelist id=\"01471439-b4a4-4c96-b835-1b241dedd031\" name=\"변경\" comment=\"\" />\n      <created>1636604305439</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1636604305439</updated>\n      <workItem from=\"1636604307166\" duration=\"5000\" />\n      <workItem from=\"1636604330714\" duration=\"3145000\" />\n      <workItem from=\"1636777328963\" duration=\"11533000\" />\n      <workItem from=\"1636948896313\" duration=\"805000\" />\n      <workItem from=\"1637562536209\" duration=\"711000\" />\n      <workItem from=\"1638803109165\" duration=\"31000\" />\n      <workItem from=\"1640522573937\" duration=\"410000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"momentum app\">\n      <created>1636604380541</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1636604380541</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"momentum app\">\n      <created>1636799947457</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1636799947457</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"momentum app\">\n      <created>1636802329174</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1636802329174</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"4\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State>\n              <option name=\"FILTERS\">\n                <map>\n                  <entry key=\"branch\">\n                    <value>\n                      <list>\n                        <option value=\"momentum_todo\" />\n                      </list>\n                    </value>\n                  </entry>\n                </map>\n              </option>\n            </State>\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <option name=\"ADD_EXTERNAL_FILES_SILENTLY\" value=\"true\" />\n    <MESSAGE value=\"momentum app\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"momentum app\" />\n  </component>\n  <component name=\"XSLT-Support.FileAssociations.UIState\">\n    <expand />\n    <select />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 2e6704fb3828f9047444d791984160b5eb393e73)
++++ b/.idea/workspace.xml	(date 1640523214165)
+@@ -91,7 +91,7 @@
+       <workItem from="1636948896313" duration="805000" />
+       <workItem from="1637562536209" duration="711000" />
+       <workItem from="1638803109165" duration="31000" />
+-      <workItem from="1640522573937" duration="410000" />
++      <workItem from="1640522573937" duration="639000" />
+     </task>
+     <task id="LOCAL-00001" summary="momentum app">
+       <created>1636604380541</created>
+@@ -114,7 +114,21 @@
+       <option name="project" value="LOCAL" />
+       <updated>1636802329174</updated>
+     </task>
+-    <option name="localTasksCounter" value="4" />
++    <task id="LOCAL-00004" summary="momentum app">
++      <created>1640523000497</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1640523000497</updated>
++    </task>
++    <task id="LOCAL-00005" summary="momentum app">
++      <created>1640523009380</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1640523009380</updated>
++    </task>
++    <option name="localTasksCounter" value="6" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+Index: css/style.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>body {\n    background: no-repeat center center fixed;\n    -webkit-background-size: cover;\n    -moz-background-size: cover;\n    -o-background-size: cover;\n    background-size: cover;\n}\n.hidden{display:none;}\n\n.glass{\n    margin: auto auto;\n    background: rgba( 255, 255, 255, 0.25 );\n    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );\n    backdrop-filter: blur( 3.5px );\n    -webkit-backdrop-filter: blur( 3.5px );\n    border-radius: 10px;\n    border: 1px solid rgba( 255, 255, 255, 0.18 );\n}\n\n#loginDiv {\n    width:500px;\n    height:100px;\n    position: absolute;\n    top:0; right:0;\n    bottom: 0; left: 0;\n    margin:auto;\n    padding: 100px;\n    text-align: center;\n}\n\n#contentDiv {\n    width:500px;\n    height:600px;\n    position: absolute;\n    top:0; right:0;\n    bottom: 0; left: 0;\n    margin:auto;\n    padding: 30px;\n    text-align: center;\n}\n\n#greeting {\n    margin:70px auto 10px;\n}\n\n#quoteDiv {\n    margin: 30px auto;\n}\n\n#quote, #author {\n    display: inline-block;\n    width:100%\n}\n\nol, ul {\n    list-style: none;\n    margin:0px; padding:0px;\n    text-align: left;\n}\n\n#todoList {\n    height: 300px;\n    padding: 10px;\n    overflow: auto;\n\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/css/style.css b/css/style.css
+--- a/css/style.css	(revision 2e6704fb3828f9047444d791984160b5eb393e73)
++++ b/css/style.css	(date 1640523214074)
+@@ -59,7 +59,7 @@
+ }
+ 
+ #todoList {
+-    height: 300px;
++    height: 295px;
+     padding: 10px;
+     overflow: auto;
+ 
